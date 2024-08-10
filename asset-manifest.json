@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dipankardutta/static/css/main.690e383d.css",
-    "main.js": "/dipankardutta/static/js/main.fcde12aa.js",
-    "static/js/453.ad6eb26e.chunk.js": "/dipankardutta/static/js/453.ad6eb26e.chunk.js",
-    "static/media/logo.svg": "/dipankardutta/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/dipankardutta/index.html",
-    "main.690e383d.css.map": "/dipankardutta/static/css/main.690e383d.css.map",
-    "main.fcde12aa.js.map": "/dipankardutta/static/js/main.fcde12aa.js.map",
-    "453.ad6eb26e.chunk.js.map": "/dipankardutta/static/js/453.ad6eb26e.chunk.js.map"
+    "main.css": "/dipankardutta/build/static/css/main.690e383d.css",
+    "main.js": "/dipankardutta/build/static/js/main.24063a47.js",
+    "static/js/453.ad6eb26e.chunk.js": "/dipankardutta/build/static/js/453.ad6eb26e.chunk.js",
+    "static/media/logo.svg": "/dipankardutta/build/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/dipankardutta/build/index.html",
+    "main.690e383d.css.map": "/dipankardutta/build/static/css/main.690e383d.css.map",
+    "main.24063a47.js.map": "/dipankardutta/build/static/js/main.24063a47.js.map",
+    "453.ad6eb26e.chunk.js.map": "/dipankardutta/build/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.690e383d.css",
-    "static/js/main.fcde12aa.js"
+    "static/js/main.24063a47.js"
   ]
 }
