@@ -1,5 +1,5 @@
 {
-  "homepage": "https://UltimateDip.github.io/dipankardutta",
+  "homepage": "https://dipankardutta.com",
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build --cname dipankardutta.com",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
