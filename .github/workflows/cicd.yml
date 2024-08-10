@@ -9,7 +9,7 @@ permissions:
   pages: write      
   id-token: write   
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Source  
@@ -27,6 +27,13 @@ jobs:
         with:
            name: 'github-pages'
            path: build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
+
+    steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with: 
